@@ -14,7 +14,6 @@ import java.util.UUID;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Table("books")
 public class Book {
 
@@ -23,4 +22,9 @@ public class Book {
     private String name;
     private int pages;
     private Category category;
+
+    public Book(String name, int pages) {
+        this.name = name;
+        this.pages = pages;
+    }
 }
