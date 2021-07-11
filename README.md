@@ -16,3 +16,8 @@ extra
     </dependency>
 
 ```
+
+### Test GraphQL Client
+
+- Altair (https://altair.sirmuel.design/)
+- Postman
