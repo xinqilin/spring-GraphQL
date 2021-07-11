@@ -21,3 +21,34 @@ extra
 
 - Altair (https://altair.sirmuel.design/)
 - Postman
+
+
+### API
+
+- POST Request -> http://localhost:8080/graphQL
+
+```graphql
+
+    {
+      getBooks{
+        id
+        name
+        pages
+      }
+    }
+
+```
+
+```graphql
+
+    mutation{
+      createBook(
+            bookName:"Bill_Book", 
+            pages:500, 
+            category:FANTASY, 
+            authorName:"Bill.Lin", 
+            age:1000
+        )
+    }
+
+```

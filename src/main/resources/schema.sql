@@ -1,3 +1,7 @@
+drop table if exists authors;
+drop table if exists books;
+
+
 CREATE TABLE books(
 	id VARCHAR(255) PRIMARY KEY,
 	name VARCHAR(255),
