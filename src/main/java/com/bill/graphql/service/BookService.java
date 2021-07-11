@@ -11,7 +11,6 @@ import java.util.concurrent.CompletableFuture;
  * @author Bill.Lin on 2021/7/11
  */
 
-@Service
 public interface BookService {
 
     public DataFetcher<CompletableFuture<Book>> getBook();

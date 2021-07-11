@@ -5,6 +5,7 @@ import com.bill.graphql.model.Book;
 import com.bill.graphql.repository.AuthorRepository;
 import com.bill.graphql.service.AuthorService;
 import graphql.schema.DataFetcher;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 import java.util.UUID;
@@ -13,6 +14,8 @@ import java.util.concurrent.CompletableFuture;
 /**
  * @author Bill.Lin on 2021/7/11
  */
+
+@Service
 public class AuthorServiceImpl implements AuthorService {
 
     private AuthorRepository repository;

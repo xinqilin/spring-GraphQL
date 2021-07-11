@@ -6,6 +6,7 @@ import graphql.GraphQL;
 import graphql.schema.GraphQLSchema;
 import graphql.schema.idl.*;
 import io.r2dbc.spi.ConnectionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

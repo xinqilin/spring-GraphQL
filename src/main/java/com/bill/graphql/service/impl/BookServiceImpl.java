@@ -6,6 +6,7 @@ import com.bill.graphql.service.AuthorService;
 import com.bill.graphql.service.BookService;
 import com.bill.graphql.type.Category;
 import graphql.schema.DataFetcher;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
@@ -14,6 +15,8 @@ import java.util.concurrent.CompletableFuture;
 /**
  * @author Bill.Lin on 2021/7/11
  */
+
+@Service
 public class BookServiceImpl implements BookService {
 
     private BookRepository bookRepository;
